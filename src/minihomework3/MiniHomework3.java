@@ -17,11 +17,10 @@ public class MiniHomework3 {
      */
     public static void main(String[] args) {
         
-        System.out.println("Pick one of the below colours for your starter Pokemon");
+        System.out.println("Pick one of the below colours for your starter Pokemon"); //output what user nees to do
         System.out.println("Red, Blue, Green or Yellow?");
         
-        Scanner userInput = new Scanner(System.in);
-        String Colour = userInput.nextLine();
+        UserInputChoice choice = new UserInputChoice();
         
         System.out.println(Colour);
     }
