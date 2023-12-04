@@ -10,4 +10,6 @@ package minihomework3;
  */
 public class ColourChoice {
     
+    String colour;
+    
 }
