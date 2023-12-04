@@ -14,7 +14,8 @@ public class MiniHomework3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Pick one of the below colours for your starter Pokemon");
+        System.out.println("Red, Blue, Green or Yellow?");
     }
     
 }
