@@ -13,11 +13,8 @@ import java.util.Scanner;
 public class UserInputChoice {
    
     Scanner userInput = new Scanner(System.in);
-    String Colour = userInput.nextLine(); 
-    String Choice;
+    String color = userInput.nextLine(); 
     
- 
-    
-    return(choice)
+    return(color);
 
 }

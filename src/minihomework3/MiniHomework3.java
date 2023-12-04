@@ -20,10 +20,8 @@ public class MiniHomework3 {
         System.out.println("Pick one of the below colours for your starter Pokemon");
         System.out.println("Red, Blue, Green or Yellow?");
         
-        Scanner userInput = new Scanner(System.in);
-        String Colour = userInput.nextLine();
-        
-        System.out.println(Colour);
+        UserInputChoice choice = new UserInputChoice(color);
+        System.out.println("You have chosen" + choice);
     }
     
 }
