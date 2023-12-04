@@ -10,11 +10,14 @@ import java.util.Scanner;
  *
  * @author jacktraynor
  */
-public static UserInputChoice() {
-    
+public class UserInputChoice {
+   
     Scanner userInput = new Scanner(System.in);
-    String Colour = userInput.nextLine();
+    String Colour = userInput.nextLine(); 
+    String Choice;
     
-    return (Colour);
+ 
     
+    return(choice)
+
 }
